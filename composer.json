@@ -1,0 +1,28 @@
+{
+  "name": "comzeradd/config-email-smtp",
+  "authors": [
+    {
+      "name": "Nikos Roussos",
+      "homepage": "https://roussos.cc"
+    }
+  ],
+  "license": "GPL-3.0-or-later",
+  "homepage": "https://codeberg.org/comzeradd/config-email-smtp",
+  "require": {
+    "php" : ">=7.4"
+  },
+  "require-dev": {
+    "squizlabs/php_codesniffer": "^3.6",
+    "wp-coding-standards/wpcs": "^2.3.0",
+    "slevomat/coding-standard": "~7.0"
+  },
+  "config": {
+    "allow-plugins": {
+      "dealerdirect/phpcodesniffer-composer-installer": true
+    }
+  },
+  "scripts": {
+    "sniff": "./vendor/bin/phpcs .",
+    "autofix": "./vendor/bin/phpcbf ."
+  }
+}

@@ -1,0 +1,10 @@
+== Changelog ==
+
+= 0.2.0 =
+
+- Bump WP support to 6.5.
+- Add option for translating admin panel message.
+
+= 0.1.0 =
+
+- Initial release.
